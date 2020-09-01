@@ -1,4 +1,4 @@
-﻿namespace Challenge.CodedUI.Framework.Selenium
+﻿namespace Challenge.Framework.Selenium
 {
     using System;
     using OpenQA.Selenium;
