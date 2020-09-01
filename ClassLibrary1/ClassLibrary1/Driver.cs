@@ -26,7 +26,8 @@
         public static void WebPage_Initialize(string url)
         {
             StartDriver(string.Empty);
-            Driver.TurnOnImplicitWait();
+            TurnOnImplicitWait();
+            Instance.Navigate().GoToUrl("https://www.booking.com/");
         }
 
         /// <summary>
